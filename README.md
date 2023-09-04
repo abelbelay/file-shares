@@ -6,6 +6,8 @@
 
 This demonstration outlines sharing out resources over the network, and creating file shares to allow Read, Write, or Deny access to individual users or groups
 
+<i><b>*Note</b> this is a continuation of the Previous Lab: <a href="https://github.com/abelbelay/configure-ad">Configuring Active Directory within Azure Virtual Machines</a></i>
+
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -21,3 +23,9 @@ This demonstration outlines sharing out resources over the network, and creating
 - Create some sample file shares with various permissions
 - Attempt to access file shares as a normal user
 - Create a Security Group, assign permissions, and test access
+
+<h2>Step Process</h2>
+
+<h3>Log into your virtual Machines</h3>
+Conncect/log into"DC-1" as your domain admin account(mydomain.com\abel_admin)
+
