@@ -29,12 +29,12 @@ This demonstration outlines sharing out resources over the network, and creating
 
 <h3>Log into your virtual Machines</h3>
 Conncect/log into"DC-1" as your domain admin account(mydomain.com\abel_admin)
-<img src="https://user-images.githubusercontent.com/142059616/265548916-829aff32-15cc-484c-b6b6-7780f6ba5456.png">
+<img src="https://user-images.githubusercontent.com/142059616/265548916-829aff32-15cc-484c-b6b6-7780f6ba5456.png"height="60%" width="60%">
 Connect/log into "Client-1" as a normal user (mydomain.com\*someuser*)
-<img src="https://user-images.githubusercontent.com/142059616/265549139-bf50bbc6-da1d-40ca-968b-c9fb52ae690a.png">
+<img src="https://user-images.githubusercontent.com/142059616/265549139-bf50bbc6-da1d-40ca-968b-c9fb52ae690a.png"height="60%" width="60%">
 
 <h4>We will create 4 folders in our C:\ drive. "read-access", "write access", "no-access", "accounting"</h4>
-<img src="https://user-images.githubusercontent.com/142059616/265550559-c45b9430-caf9-4253-8c7a-c6d657bcfcd3.png">
+<img src="https://user-images.githubusercontent.com/142059616/265550559-c45b9430-caf9-4253-8c7a-c6d657bcfcd3.png"height="60%" width="60%">
 
 
 <h4>We will now set permissions for these "Domain Users" with the new folders we have created</h4>
@@ -59,7 +59,7 @@ Now we will go back to "Client-1"
 <p align="center"> <img src="https://user-images.githubusercontent.com/142059616/265555968-9a7db859-6f23-46ed-b139-5fce523090f4.png" height="66%" width="60%"></p>
 We can open the folder as it is set to "read only", but when we try to edit/add to it, access is denied.
 <p align="center">
-<img src="https://user-images.githubusercontent.com/142059616/265556639-368e77d5-5cb8-49e1-a720-eed501c2697b.png"></p>
+<img src="https://user-images.githubusercontent.com/142059616/265556639-368e77d5-5cb8-49e1-a720-eed501c2697b.png"height="60%" width="60%"></p>
 <h4>We are now going to create a Security Group "Accountants", assign permissions and test access</h4>
 <p align="center"><img src="https://user-images.githubusercontent.com/142059616/265562155-aa105fbf-bb9c-434e-97ea-20dd28ba7ce3.png" height="50%" width="50%">
 <img src="https://user-images.githubusercontent.com/142059616/265562661-2403d296-b021-49d1-bb74-f62efa767a6d.png" height="50%" width="50%"></p>
@@ -67,10 +67,10 @@ We can open the folder as it is set to "read only", but when we try to edit/add 
 <img src="https://user-images.githubusercontent.com/142059616/265576994-39db72fc-55d2-4065-ad43-8ac34459f312.png" height="50%" width="50%">
 <br>
 Go to _SecurityGroups-->Members-->Add-->Enter the users name(in this case "bapo.hufi")-->"ok"
-<img src="https://user-images.githubusercontent.com/142059616/265579080-50f5dcfa-ad46-4bc7-aea2-923328bceae8.png">
-<img src="https://user-images.githubusercontent.com/142059616/265578932-ec433760-159e-453c-8712-5e81e8027e73.png">
+<img src="https://user-images.githubusercontent.com/142059616/265579080-50f5dcfa-ad46-4bc7-aea2-923328bceae8.png"height="60%" width="60%">
+<img src="https://user-images.githubusercontent.com/142059616/265578932-ec433760-159e-453c-8712-5e81e8027e73.png"height="60%" width="60%">
 Log out of client-1 and log back in, and now you should have access to the "accounting" folder!
-<p align="center"><img src="https://user-images.githubusercontent.com/142059616/265579888-2c50e951-52bf-4b93-bd27-a7f364f1cae8.png">
+<p align="center"><img src="https://user-images.githubusercontent.com/142059616/265579888-2c50e951-52bf-4b93-bd27-a7f364f1cae8.png"height="60%" width="60%">
 <hr>
 <br>
 <h3>ALL DONE:))</h3>
