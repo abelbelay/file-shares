@@ -40,12 +40,24 @@ Connect/log into "Client-1" as a normal user (mydomain.com\*someuser*)
 <h4>We will now set permissions for these "Domain Users" with the new folders we have created</h4>
 <li>Folder:Read Access-->Group:Domain Users-->Permission:Read</li>
 <li>Folder:Write Access-->Group:Domain Users-->Permission:Read/Write</li>
-<li>Folder:No Access-->Group:Domain Users-->Permission:Read/Write</li>
+<li>Folder:No Access-->Group:Domain Admins-->Permission:Read/Write</li>
 <p align="center">
-<img src="https://user-images.githubusercontent.com/142059616/265551161-2d63b441-937c-4382-b2a8-0ab6cfceb084.png" height="50%" width="35%">
-<img src="https://user-images.githubusercontent.com/142059616/265551329-dd3b193c-057b-4cf0-b3e6-0b0325b573d2.png" height="50%" width="35%">
-<img src="https://user-images.githubusercontent.com/142059616/265551520-b24ebd1e-ae58-4539-92f7-972712e6291b.png" height="50%" width="35%">
+<img src="https://user-images.githubusercontent.com/142059616/265551161-2d63b441-937c-4382-b2a8-0ab6cfceb084.png" height="50%" width="48%">
+<img src="https://user-images.githubusercontent.com/142059616/265551329-dd3b193c-057b-4cf0-b3e6-0b0325b573d2.png" height="50%" width="48%">
+<img src="https://user-images.githubusercontent.com/142059616/265551520-b24ebd1e-ae58-4539-92f7-972712e6291b.png" height="50%" width="48%">
 </p>
+
+<h4>We are going to open the "Client-1" VM and navigate the shared folders</h4>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/142059616/265553501-861256c7-1243-4ca7-9b85-977cd9ccf633.png" height="76%" width="70%"></p>
+In this example we can see that since we didn't give permission for the domain user to access the "no access" folder, they're not permitted from accessing it.
+<p align="center"><img src="https://user-images.githubusercontent.com/142059616/265553899-3cbbb4e8-6352-487a-b84e-da518c7b82cd.png" height="76%" width="70%"></p>
+We will go back to the Dc-1 server and create a text file in the "read access" folder to test out our theory further. You can name the txt file whatever you'd like
+<p align="center">
+<img src="https://user-images.githubusercontent.com/142059616/265554671-80acd228-4ff1-4979-a432-a25f57ec8635.png" height="66%" width="60%"></p>
+Now we will go back to "Client-1"
+<img src="<img src="https://user-images.githubusercontent.com/142059616/265554671-80acd228-4ff1-4979-a432-a25f57ec8635.png" height="66%" width="60%">
+
 
 
 
