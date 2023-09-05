@@ -56,8 +56,13 @@ We will go back to the Dc-1 server and create a text file in the "read access" f
 <p align="center">
 <img src="https://user-images.githubusercontent.com/142059616/265554671-80acd228-4ff1-4979-a432-a25f57ec8635.png" height="66%" width="60%"></p>
 Now we will go back to "Client-1"
-<img src="<img src="https://user-images.githubusercontent.com/142059616/265554671-80acd228-4ff1-4979-a432-a25f57ec8635.png" height="66%" width="60%">
-
+<p align="center"> <img src="https://user-images.githubusercontent.com/142059616/265555968-9a7db859-6f23-46ed-b139-5fce523090f4.png" height="66%" width="60%"></p>
+We can open the folder as it is set to "read only", but when we try to edit/add to it, access is denied.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/142059616/265556639-368e77d5-5cb8-49e1-a720-eed501c2697b.png"></p>
+<h4>we are now going to create a Security Group "Accountants", assign permissions and test access</h4>
+<img src="https://user-images.githubusercontent.com/142059616/265562155-aa105fbf-bb9c-434e-97ea-20dd28ba7ce3.png">
+<img src="https://user-images.githubusercontent.com/142059616/265562661-2403d296-b021-49d1-bb74-f62efa767a6d.png">
 
 
 
