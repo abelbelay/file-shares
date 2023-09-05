@@ -60,9 +60,20 @@ Now we will go back to "Client-1"
 We can open the folder as it is set to "read only", but when we try to edit/add to it, access is denied.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/142059616/265556639-368e77d5-5cb8-49e1-a720-eed501c2697b.png"></p>
-<h4>we are now going to create a Security Group "Accountants", assign permissions and test access</h4>
-<img src="https://user-images.githubusercontent.com/142059616/265562155-aa105fbf-bb9c-434e-97ea-20dd28ba7ce3.png">
-<img src="https://user-images.githubusercontent.com/142059616/265562661-2403d296-b021-49d1-bb74-f62efa767a6d.png">
+<h4>We are now going to create a Security Group "Accountants", assign permissions and test access</h4>
+<p align="center"><img src="https://user-images.githubusercontent.com/142059616/265562155-aa105fbf-bb9c-434e-97ea-20dd28ba7ce3.png" height="50%" width="50%">
+<img src="https://user-images.githubusercontent.com/142059616/265562661-2403d296-b021-49d1-bb74-f62efa767a6d.png" height="50%" width="50%"></p>
+<i>When we open the "accounting" folder, it does not permit the user to access it, so we are going to indivdually add the user. We will do that by adding the user to the "ACCOUNTANTS" security group</i>
+<img src="https://user-images.githubusercontent.com/142059616/265576994-39db72fc-55d2-4065-ad43-8ac34459f312.png" height="50%" width="50%">
+<br>
+Go to _SecurityGroups-->Members-->Add-->Enter the users name(in this case "bapo.hufi")-->"ok"
+<img src="https://user-images.githubusercontent.com/142059616/265579080-50f5dcfa-ad46-4bc7-aea2-923328bceae8.png">
+<img src="https://user-images.githubusercontent.com/142059616/265578932-ec433760-159e-453c-8712-5e81e8027e73.png">
+Log out of client-1 and log back in, and now you should have access to the "accounting" folder!
+<p align="center"><img src="https://user-images.githubusercontent.com/142059616/265579888-2c50e951-52bf-4b93-bd27-a7f364f1cae8.png">
+<hr>
+<br>
+<h3>ALL DONE:))</h3>
 
 
 
