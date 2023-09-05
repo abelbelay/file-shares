@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/R5OzmdT.png" height="55%" width="55%" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>Microsoft Azure - Active Directory (AD)</h1>
+<h1>Microsoft Azure - Active Directory (AD) - Network File Shares, Permissions & Security Groups</h1>
 
 This demonstration outlines sharing out resources over the network, and creating file shares to allow Read, Write, or Deny access to individual users or groups
 
